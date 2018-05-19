@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin:0px;
     padding:0px;
-    font-size: 12pt;
+    font-size: 12px;
 }
 .headr{
     padding-left: 6px;
@@ -16,11 +16,25 @@ h2{
     font-weight: 400;
     font-size: 1.5em;
     margin-top: 4px;
+    margin-bottom: 6px;
 }
-h3{
+.heading3{
     font-weight: 400;
     font-size: 1.2em;
-    margin-top: 4px;
+    color: #555555;
+}
+h4{
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 18px 0px 12px 0px;
+}
+h5{
+    margin-top:18px
+}
+.subdue{
+    font-size: 1em;
+    font-weight: 400;
+    color: #333333;
 }
 .box{
     background-color: #ffffff;
@@ -33,20 +47,34 @@ h3{
     background-position: 50% 10%;
 }
 hr{
-    margin: 12px 0px 12px 0px;
-    border-color: #ff0000;
-    border-width: 3px;
+    margin: 18px 0px 12px 0px;
+    border-color: #883333;
+    border-width: 1px;
+}
+.be_li{
+    opacity: 0.8;
+    height:25px;
+    align-content: 
 }
 
-h4{
-    margin-bottom: 6px
-}
+
 .hilight{
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-top: 24px;
     
 }
+.year{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+.course{
+    font-weight: 600;
+    color: #333333;
+    font-size: 1em;
+}
 p{
-    margin-top: 2%;
+    margin-top: 3%;
 }
 .container-fluid{
 	width:100%;
@@ -75,6 +103,7 @@ p{
 	.col-lg-11{width:91.66%;}
 	.col-lg-12 {width:100%;}
     .vis-sm-y{display:none}
+    .indent-div {clear:left}
     
 }
 
