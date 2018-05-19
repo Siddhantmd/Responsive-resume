@@ -33,7 +33,8 @@ h3{
     background-position: 50% 10%;
 }
 hr{
-    margin: 12px 0px 12px 0px
+    margin: 12px 0px 12px 0px;
+    border-color: red;
 }
 
 h4{
